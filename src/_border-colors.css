@@ -1,0 +1,36 @@
+/*
+
+   Tachyons
+   COLOR VARIABLES
+
+   Grayscale
+   - Solids
+   - Transparencies
+*/
+
+:root {
+
+  --transparent: transparent;
+
+  --black-10: rgba(0,0,0,.1);
+  --black-05: rgba(0,0,0,.05);
+
+  --white-10: rgba(255,255,255,.1);
+  --white-05: rgba(255,255,255,.05);
+
+}
+
+/*
+
+   BORDER COLORS
+
+*/
+
+
+.b--white-10 {   border-color: var(--white-10); }
+.b--white-05 {   border-color: var(--white-05); }
+
+.b--black-10 {   border-color: var(--black-10); }
+.b--black-05 {   border-color: var(--black-05); }
+
+.b--transparent { border-color: var(--transparent); }

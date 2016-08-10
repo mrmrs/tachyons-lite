@@ -1,0 +1,25 @@
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
+/*
+
+  TEXT ALIGN
+
+*/
+
+.tl  { text-align: left; }
+.tr  { text-align: right; }
+.tc  { text-align: center; }
+
+@media (--breakpoint-medium) {
+  .tl-m  { text-align: left; }
+  .tr-m  { text-align: right; }
+  .tc-m  { text-align: center; }
+}
+
+@media (--breakpoint-large) {
+  .tl-l  { text-align: left; }
+  .tr-l  { text-align: right; }
+  .tc-l  { text-align: center; }
+}
+

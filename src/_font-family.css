@@ -1,0 +1,28 @@
+/*
+
+   FONT FAMILY GROUPS
+
+*/
+
+
+.sans-serif {
+  font-family: -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               helvetica, 'helvetica neue',
+               sans-serif;
+}
+
+.serif {
+  font-family: georgia,
+               times,
+               serif;
+}
+
+/* Monospaced Typefaces (for code) */
+
+/* From http://cssfontstack.com */
+.mono {
+  font-family: Consolas,
+               monaco,
+               monospace;
+}

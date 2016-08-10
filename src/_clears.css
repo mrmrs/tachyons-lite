@@ -1,0 +1,17 @@
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
+/*
+
+   CLEARFIX
+
+*/
+
+/* Nicolas Gallaghers Clearfix solution
+   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.cf:before,
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf {       *zoom: 1; }
+

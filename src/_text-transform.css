@@ -1,0 +1,21 @@
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
+/*
+
+   TEXT TRANSFORM
+
+*/
+
+.ttc { text-transform: capitalize; }
+.ttu { text-transform: uppercase; }
+
+@media (--breakpoint-medium) {
+  .ttc-m { text-transform: capitalize; }
+  .ttu-m { text-transform: uppercase; }
+}
+
+@media (--breakpoint-large) {
+  .ttc-l { text-transform: capitalize; }
+  .ttu-l { text-transform: uppercase; }
+}

@@ -1,0 +1,37 @@
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
+/*
+
+   BORDER RADIUS
+
+   Base:
+     br   = border-radius
+
+   Modifiers:
+     1    = 1st step in scale
+     2    = 2nd step in scale
+     -100 = 100%
+
+
+   Media Query Extensions:
+     -m  = medium
+     -l  = large
+
+*/
+
+  .br1 {        border-radius: .125rem; }
+  .br2 {        border-radius: .25rem; }
+  .br-100 {     border-radius: 100%; }
+
+@media (--breakpoint-medium) {
+  .br1-m {     border-radius: .125rem; }
+  .br2-m {     border-radius: .25rem; }
+  .br-100-m {  border-radius: 100%; }
+}
+
+@media (--breakpoint-large) {
+  .br1-l {     border-radius: .125rem; }
+  .br2-l {     border-radius: .25rem; }
+  .br-100-l {  border-radius: 100%; }
+}

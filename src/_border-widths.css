@@ -1,0 +1,38 @@
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
+/*
+
+   BORDER WIDTHS
+
+   Base:
+     bw = border-width
+
+   Modifiers:
+     0 = 0 width border
+     1 = 1st step in border-width scale
+     2 = 2nd step in border-width scale
+     3 = 3rd step in border-width scale
+     4 = 4th step in border-width scale
+     5 = 5th step in border-width scale
+
+   Media Query Extensions:
+     -m  = medium
+     -l  = large
+
+*/
+
+.bw0 { border-width: 0; }
+
+.bt-0 { border-top-width: 0; }
+.br-0 { border-right-width: 0; }
+.bb-0 { border-bottom-width: 0; }
+.bl-0 { border-left-width: 0; }
+
+@media (--breakpoint-medium) {
+  .bw0-m { border-width: 0; }
+}
+
+@media (--breakpoint-large) {
+  .bw0-l { border-width: 0; }
+}

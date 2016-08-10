@@ -1,6 +1,6 @@
 {
   "name": "tachyons-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stripped back version of tachyons.",
   "author": "mrmrs",
   "style": "css/tachyons.css",

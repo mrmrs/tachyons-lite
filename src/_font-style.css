@@ -9,10 +9,3 @@
 
 .i         { font-style: italic; }
 
-@media (--breakpoint-medium) {
-  .i-m       { font-style: italic; }
-}
-
-@media (--breakpoint-large) {
-  .i-l       { font-style: italic; }
-}

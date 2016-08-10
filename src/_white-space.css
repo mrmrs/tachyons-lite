@@ -10,15 +10,3 @@
 
 .nowrap { white-space: nowrap; }
 .pre { white-space: pre; }
-
-
-@media (--breakpoint-medium) {
-  .nowrap-m { white-space: nowrap; }
-  .pre-m { white-space: pre; }
-}
-
-@media (--breakpoint-large) {
-  .nowrap-l { white-space: nowrap; }
-  .pre-l { white-space: pre; }
-}
-

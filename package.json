@@ -3,13 +3,13 @@
   "version": "1.0.1",
   "description": "Stripped back version of tachyons.",
   "author": "mrmrs",
-  "style": "css/tachyons.css",
-  "main": "css/tachyons.css",
+  "style": "css/tachyons-lite.css",
+  "main": "css/tachyons-lite.css",
   "files": [
     "css",
     "src"
   ],
-  "repository": "tachyons-css/tachyons",
+  "repository": "mrmrs/tachyons-lite",
   "keywords": [
     "css",
     "oocss",
@@ -55,8 +55,8 @@
     "mutations": "immutable-css src/tachyons.css --strict",
     "copy": "node build/index.js",
     "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build:css": "tachyons src/tachyons-lite.css > css/tachyons-lite.css",
+    "build:minify": "tachyons src/tachyons-lite.css -m > css/tachyons-lite.min.css",
     "build:watch": "watch 'npm run build' ./src/"
   },
   "dependencies": {

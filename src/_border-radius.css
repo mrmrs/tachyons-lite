@@ -20,7 +20,7 @@
 
 */
 
-  .br1 {        border-radius: .125rem; }
-  .br2 {        border-radius: .25rem; }
-  .br-100 {     border-radius: 100%; }
-
+  .br1 {     border-radius: .125rem; }
+  .br2 {     border-radius: .25rem; }
+  .br-100 {  border-radius: 100%; }
+  .br-pill { border-radius: 9999px; }

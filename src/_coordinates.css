@@ -14,24 +14,11 @@
 .bottom-0 { bottom: 0; }
 .left-0   { left:   0; }
 
-.absolute--fill {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
 @media (--breakpoint-medium) {
   .top-0-m     { top:   0; }
   .left-0-m    { left:  0; }
   .right-0-m   { right: 0; }
   .bottom-0-m  { bottom: 0; }
-  .absolute--fill-m {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
 }
 
 @media (--breakpoint-large) {
@@ -39,10 +26,4 @@
   .left-0-l    { left:  0; }
   .right-0-l   { right: 0; }
   .bottom-0-l  { bottom: 0; }
-  .absolute--fill-l {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
 }
